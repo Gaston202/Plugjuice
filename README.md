@@ -26,3 +26,6 @@ sudo systemctl start influxdb<br />
 sudo systemctl enable influxdb.service<br />
 sudo dpkg -i --force-all grafana_6.0.1_armhf.deb<br />
 sudo service grafana-server start<br />
+# Run the code:
+python send_data.py
+
